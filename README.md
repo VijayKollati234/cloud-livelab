@@ -16,3 +16,7 @@ Clone & Status
 Clone- cloning a repositiory on our local machine.
 <br>
 if you want to copy github's file and past on local device, clone helps copy and past on local device through github
+<br>
+Status Command :- displays the state of the code
+<br>
+git status
