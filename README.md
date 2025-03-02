@@ -20,3 +20,13 @@ if you want to copy github's file and past on local device, clone helps copy and
 Status Command :- displays the state of the code
 <br>
 git status
+Add & Commit
+<br>
+Add :- adds new or changed files in your working directory to the GIT staging area { git add <-file nam->}
+<br>
+commit :- it is the record of change
+<br>
+git commit -m
+<br>
+PUSH Command :- upload local repo content to remote repo "git push origin main"
+<br>
