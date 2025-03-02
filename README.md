@@ -2,3 +2,4 @@
 Aws Lab repository
 <br>
 Author-Vijay
+git configuring on device
