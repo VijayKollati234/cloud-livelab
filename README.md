@@ -3,6 +3,8 @@ Aws Lab repository
 <br>
 Author-Vijay
 <br>
+GitHUB Commands
+<br>
 git configuring on device- commands 
 <br>
 git config --global user.name "vijaykollati234"  email setup :- git config --global user.name ""
@@ -29,4 +31,18 @@ commit :- it is the record of change
 git commit -m
 <br>
 PUSH Command :- upload local repo content to remote repo "git push origin main"
+<br>
+Initi Command:- used to create a new git repo
+<br>
+git init
+<br>
+git remote add origin <-link->
+<br>
+git remote -v {to verify remote}
+<br>
+git branch {to check branch}
+<br>
+git branch -M main {to rename branch}
+<br>
+git puch origin main
 <br>
