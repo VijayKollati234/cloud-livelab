@@ -46,9 +46,14 @@ git branch -M main {to rename branch}
 <br>
 git puch origin main
 <br>
-3/11/2025:
+                                         3/11/2025:
 <br>
 PS C:\Users\Admin\Documents\Project-Cloud> git init
 <br>
 Reinitialized existing Git repository in C:/Users/Admin/Documents/Project-Cloud/.git/
+<br>
+PS C:\Users\Admin\Documents\Project-Cloud> git commit -m "my first commit"
+[main 836c794] my first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Secondcode.txt
 
