@@ -59,5 +59,28 @@ PS C:\Users\Admin\Documents\Project-Cloud> git commit -m "my first commit"
  <br>
      3/15/2025
      <br>
-     
+     PS C:\Users\Admin\Documents\Project-Cloud> git rm --cached Linux.txt
+rm 'Linux.txt'
+PS C:\Users\Admin\Documents\Project-Cloud> git status 
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    Linux.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Linux.txt
+
+PS C:\Users\Admin\Documents\Project-Cloud> git commit -m "removed the linux file"
+[main 699fd9e] removed the linux file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 Linux.txt
+PS C:\Users\Admin\Documents\Project-Cloud> git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Linux.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\Admin\Documents\Project-Cloud> 
 
