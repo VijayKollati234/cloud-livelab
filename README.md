@@ -194,4 +194,10 @@ The key's randomart image is:
 +----[SHA256]-----+
 
 C:\Users\Admin\Documents\CloudGITHUB>^A
+<br>
+in Ubantu
+<br>
+vijaygit@DESKTOP-C2ECULG:/mnt/c/Documents and Settings/Admin/cloud-livelab$ git config --global user.email "kollativijaykumar.grow@gmail.com"
+vijaygit@DESKTOP-C2ECULG:/mnt/c/Documents and Settings/Admin/cloud-livelab$ git config --global user.name "vijaykollati234"
+vijaygit@DESKTOP-C2ECULG:/mnt/c/Documents and Settings/Admin/cloud-livelab$ git status
 
