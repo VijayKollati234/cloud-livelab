@@ -83,4 +83,115 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 PS C:\Users\Admin\Documents\Project-Cloud> 
+<br>
+C:\Users\Admin\Documents\CloudGITHUB>echo "#git-course demo" >> README.MD
+
+C:\Users\Admin\Documents\CloudGITHUB>cat readme.md
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Admin\Documents\CloudGITHUB>git init
+Initialized empty Git repository in C:/Users/Admin/Documents/CloudGITHUB/.git/
+
+C:\Users\Admin\Documents\CloudGITHUB>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2820-6DFF
+
+ Directory of C:\Users\Admin\Documents\CloudGITHUB
+
+03/15/2025  05:42 PM    <DIR>          .
+03/15/2025  05:37 PM    <DIR>          ..
+03/15/2025  05:41 PM                21 README.MD
+               1 File(s)             21 bytes
+               2 Dir(s)  298,696,929,280 bytes free
+
+C:\Users\Admin\Documents\CloudGITHUB>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.MD
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Admin\Documents\CloudGITHUB>git add readme.md
+
+C:\Users\Admin\Documents\CloudGITHUB>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.MD
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Admin\Documents\CloudGITHUB>git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.MD
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Admin\Documents\CloudGITHUB>git punch origin main
+git: 'punch' is not a git command. See 'git --help'.
+
+The most similar commands are
+        branch
+        push
+
+C:\Users\Admin\Documents\CloudGITHUB>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.MD
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Admin\Documents\CloudGITHUB>git branch -M main
+
+C:\Users\Admin\Documents\CloudGITHUB>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.MD
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Admin\Documents\CloudGITHUB>ssh-keygen -o
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (C:\Users\Admin/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\Admin/.ssh/id_ed25519
+Your public key has been saved in C:\Users\Admin/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:69ChkHlNE/Zsh7s1xMV5M+H8eiM0lndIlWo1I/j3Puk admin@DESKTOP-C2ECULG
+The key's randomart image is:
++--[ED25519 256]--+
+|        o   ...o+|
+|       . + + o=O.|
+|        o = = =+=|
+|     o o o + =.o.|
+|    + . S . +=o.+|
+|     o o o oo.o.o|
+|      o o .  ..oo|
+|       o      .+o|
+|        .     .E.|
++----[SHA256]-----+
+
+C:\Users\Admin\Documents\CloudGITHUB>^A
 
