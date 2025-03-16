@@ -200,4 +200,11 @@ in Ubantu
 vijaygit@DESKTOP-C2ECULG:/mnt/c/Documents and Settings/Admin/cloud-livelab$ git config --global user.email "kollativijaykumar.grow@gmail.com"
 vijaygit@DESKTOP-C2ECULG:/mnt/c/Documents and Settings/Admin/cloud-livelab$ git config --global user.name "vijaykollati234"
 vijaygit@DESKTOP-C2ECULG:/mnt/c/Documents and Settings/Admin/cloud-livelab$ git status
+<br>
+3/16/2025
+<br>
+git remote add origin main "ssh link"
+<br>
+git push -u origin main
+
 
