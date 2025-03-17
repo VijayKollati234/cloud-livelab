@@ -206,5 +206,29 @@ vijaygit@DESKTOP-C2ECULG:/mnt/c/Documents and Settings/Admin/cloud-livelab$ git 
 git remote add origin main "ssh link"
 <br>
 git push -u origin main
+<br>
+                               3/17/2025
+<br>
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "4.23.0"
+    }
+  }
+}
+
+provider "azurerm" {
+  subscription_id = "43e5e0e2-99b3-487a-8631-f"
+  client_id       = "ab88c0b7-f59f-43fd-b29e-1d65a1841cbb"
+  client_secret   = "1Pw8Q~1QRW.4KPH8l19-UAgkdLTy"
+  tenant_id       = "c8b472cc-c667-4d0a-a6a3-"
+  features {}  
+}
+
+resource "azurerm_resource_group" "app_grp" {
+  name     = "app-grp"
+  location = "Central India"
+}
 
 
