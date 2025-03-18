@@ -231,4 +231,52 @@ resource "azurerm_resource_group" "app_grp" {
   location = "Central India"
 }
 
+<br>
+3/18/2025
+<br>
+
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "4.23.0"
+    }
+  }
+}
+
+provider "azurerm" {
+  subscription_id = "43e5e0e2-99b3-487a-8631-6ad4116ebd2**f"
+  client_id       = "ab88c0b7-f59f-43fd-b29e-1d65a1841cbb"
+  client_secret   = "1Pw8Q~1QRW.4KPH8l19-UAgkdLTc***ZL59il~6Ucuy"
+  tenant_id       = "c8b472cc-c667-4d0a-a6a3-7156435b5912"
+  features {}  
+}
+
+
+resource"azurerm_resource_group" "cloud_live"{
+name="cloudlive"
+location="Central India"
+}
+
+resource "azurerm_storage_account" "storage_account" {
+  name                     = "cloudstoragelive"
+  resource_group_name      = "cloudlive"
+  location                 = "Central India"
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+
+  
+}
+<br>
+terraform commands
+for initiating :- terraform init
+for - adding :- terraform plan -out main.tfplan
+for apply :- terraform apply main.tfplan
+for refresh :- terraform refresh
+for showing resources :- az group show --name cloudlive 
+ensures the configuration file have correct syntax :- terraform validate
+
+
+
+
 
