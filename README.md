@@ -245,9 +245,9 @@ terraform {
 }
 
 provider "azurerm" {
-  subscription_id = "43e5e0e2-99b3-487a-8631-6ad4116ebd2**f"
-  client_id       = "ab88c0b7-f59f-43fd-b29e-1d65a1841cbb"
-  client_secret   = "1Pw8Q~1QRW.4KPH8l19-UAgkdLTc***ZL59il~6Ucuy"
+  subscription_id = "43e5e0e2-99b3-487a-6ad4116ebd2**f"
+  client_id       = "ab88c0b7-f59f-43fd--1d65a1841cbb"
+  client_secret   = "1Pw8Q~1QRW.4K-UAgkdLTc***ZL59il~6Ucuy"
   tenant_id       = "c8b472cc-c667-4d0a-a6a3-7156435b5912"
   features {}  
 }
