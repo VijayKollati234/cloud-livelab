@@ -1,0 +1,9 @@
+#!/bin/bash
+#####################
+# Author : Vijay 
+# Date : 5/3/2025
+#####################
+
+cd learn
+mkdir Newsprint
+touch sql.sh
