@@ -14,3 +14,12 @@
 
 # List s3 buckets
 aws S3 ls
+
+# List EC2 Instance
+aws ec2 describe-instances
+
+# List lambda
+aws lambda list-functions
+
+# List IAM users
+aws iam list-users
