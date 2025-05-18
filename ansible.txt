@@ -1,0 +1,9 @@
+sudo apt-get update
+
+sudo apt-get install software-proterties-common
+
+sudo apt-add-repository ppa:ansible/ansible
+
+sudo apt-get update 
+
+sudo aot-get install ansible
