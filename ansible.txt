@@ -6,4 +6,10 @@ sudo apt-add-repository ppa:ansible/ansible
 
 sudo apt-get update 
 
-sudo aot-get install ansible
+sudo apt-get install ansible
+
+##############################################
+1- installing LAMP stack
+Apache server
+PHP
+My sql
