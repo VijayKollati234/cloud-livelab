@@ -1,0 +1,16 @@
+---
+-hosts : test-servers
+ become : true
+ vars : 
+  ansible_become_pass : compute
+tasks :
+ - name : install nginx
+   package : pkg=nginx state=intalled
+
+   notify : 
+     -start nginx
+
+ handlers :
+  -name : start nginx
+   service : name=nginx state=started
+
