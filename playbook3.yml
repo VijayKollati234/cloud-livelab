@@ -1,0 +1,21 @@
+---
+- name : install apache & php & mysql
+  hosts : test-servers
+  become: true
+  become_user: root
+  gather_facts : true
+  tasks :
+     - name : "install apache2"
+       package : name=apache2 state=present
+     - name : "install apache2-php5"
+       package : name=libapache2-mob-php state=present
+     - name : "install php-cli"
+       package : name=php-cli state=present
+     - name : "install php-mcrypt"
+       package : name=php-mcrypt state=present
+     - name : "install php-gd"
+       package : name=php-gd state=present
+     - name : "install php-mysql"
+       package : name=php-mysql state=present
+     - name : "install mysqlserver"
+       package : namemysql-server state=present    
