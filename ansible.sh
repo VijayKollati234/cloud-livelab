@@ -37,7 +37,7 @@ adhoc : ansible inventory.ini -i shell -a "sudo " all
       apt:
         name: nginx
         state: present
-    - name Start Nginx
+    - name: Start Nginx
       service:
         name: nginx
         state: started    
