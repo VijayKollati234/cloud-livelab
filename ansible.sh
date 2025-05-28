@@ -26,3 +26,18 @@ adhoc : ansible inventory.ini -i shell -a "sudo " all
         owner: root
         group: root
         mode: '0644'
+
+---
+- name: Install Nginx
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+    - name Start Nginx
+      service:
+        name: nginx
+        state: started    
